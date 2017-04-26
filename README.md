@@ -6,7 +6,7 @@ Bring your artboards, pages and layers to Justinmind and turn your designs into 
 
 # Installation
 
-[Download](https://nodejs.org/) and extract the contents of this zip file. Then double-click the justinmind_1.0.0.sketchplugin bundle to install the plugin. This will only work if you are using Sketch 3.3 or later.
+[Download](http://d2ld3he4yll0xl.cloudfront.net/external-plugins/justinmind_1.0.0.sketchplugin.zip) and extract the contents of this zip file. Then double-click the justinmind_1.0.0.sketchplugin bundle to install the plugin. This will only work if you are using Sketch 3.3 or later.
 
 # Usage
 Everything is explained in [this quick tutorial](https://www.justinmind.com/support/justinmind-prototyping-tool-sketch-integration/)

@@ -1,4 +1,5 @@
 # Export to Justinmind
+[![Download from Sketchpacks.com](https://badges.sketchpacks.com/plugins/com.justinmind.exporttojustinmind/version.svg)](https://api.sketchpacks.com/v1/plugins/com.justinmind.exporttojustinmind/download) [![Compatible Sketch Version](https://badges.sketchpacks.com/plugins/com.justinmind.exporttojustinmind/compatibility.svg)](https://sketchpacks.com/vconesa/justinmind-sketch)
 
 Bring your artboards, pages and layers to Justinmind and turn your designs into an interactive, shareable prototype.
 

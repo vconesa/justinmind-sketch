@@ -1,6 +1,7 @@
 {
     "name" : "Justinmind",
     "identifier" : "com.justinmind.exporttojustinmind",
+    "appcast": "https://api.sketchpacks.com/v1/plugins/com.justinmind.exporttojustinmind/appcast",
     "version" : "1.0.0",
     "description" : "Export your Sketch artboards to Justinmind.",
     "authorEmail" : "jim.info@justinmind.com",

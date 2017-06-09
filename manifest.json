@@ -1,7 +1,7 @@
 {
     "name" : "Justinmind",
     "identifier" : "com.justinmind.exporttojustinmind",
-    "version" : "1.0.0",
+    "version" : "1.0.1",
     "description" : "Export your Sketch artboards to Justinmind.",
     "authorEmail" : "jim.info@justinmind.com",
     "author" : "Justinmind",

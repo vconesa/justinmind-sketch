@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Justinmind</title>
+    <link>https://github.com/vconesa/justinmind-sketch/blob/master/appcast.xml</link>
+    <description>Export your Sketch artboards to Justinmind.</description>
+    <language>en</language>
+      <item>
+        <title>Version 1.0.2</title>
+        <description>
+          <![CDATA[
+            <ul>
+              <li>Fixed crash in High Sierra</li>
+            </ul>
+          ]]>
+        </description>
+        <enclosure url="https://github.com/vconesa/justinmind-sketch/raw/master/justinmind_1.0.2.sketchplugin.zip" sparkle:version="1.0.2" />
+      </item>
+      <item>
+        <title>Version 1.0.1</title>
+        <description>
+          <![CDATA[
+            <ul>
+            <li>Improved UI</li>
+            </ul>
+          ]]>
+        </description>
+        <enclosure url="https://github.com/vconesa/justinmind-sketch/raw/8efb823e471df7ba090ed0009ee1b385f2bc2142/justinmind_1.0.1.sketchplugin.zip" sparkle:version="1.0.1" />
+      </item>
+      <item>
+        <title>Version 1.0.0</title>
+        <description>
+          <![CDATA[
+            <ul>
+            <li>Export artboards as a Justinmind prototype</li>
+            </ul>
+          ]]>
+        </description>
+        <enclosure url="https://github.com/vconesa/justinmind-sketch/raw/ca4db71bfd6202f3c269bb88beb169cea52806dc/justinmind_1.0.0.sketchplugin.zip" sparkle:version="1.0.0" />
+      </item>
+  </channel>
+</rss>

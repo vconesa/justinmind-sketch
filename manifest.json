@@ -1,8 +1,8 @@
 {
     "name" : "Justinmind",
-    "appcast": "https://raw.githubusercontent.com/kevinwoodhouse/sketch-nudged/master/appcast.xml",
+    "appcast": "https://raw.githubusercontent.com/vconesa/justinmind-sketch/master/appcast.xml",
     "identifier" : "com.justinmind.exporttojustinmind",
-    "version" : "1.0.2",
+    "version" : "1.0.3",
     "description" : "Export your Sketch artboards to Justinmind.",
     "authorEmail" : "jim.info@justinmind.com",
     "author" : "Justinmind",

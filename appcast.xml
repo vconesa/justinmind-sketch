@@ -5,6 +5,17 @@
     <link>https://raw.githubusercontent.com/vconesa/justinmind-sketch/master/appcast.xml</link>
     <description>Export your Sketch artboards to Justinmind.</description>
     <language>en</language>
+    <item>
+        <title>Version 1.0.4</title>
+        <description>
+          <![CDATA[
+            <ul>
+              <li>Layer visibility brought to Justinmind</li>
+            </ul>
+          ]]>
+        </description>
+        <enclosure url="https://github.com/vconesa/justinmind-sketch/raw/master/justinmind_1.0.4.sketchplugin.zip" sparkle:version="1.0.4" />
+    </item>
      <item>
         <title>Version 1.0.3</title>
         <description>

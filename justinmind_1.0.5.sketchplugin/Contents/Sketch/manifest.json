@@ -1,0 +1,31 @@
+{
+    "name" : "Justinmind",
+    "appcast": "https://raw.githubusercontent.com/vconesa/justinmind-sketch/master/appcast.xml",
+    "identifier" : "com.justinmind.exporttojustinmind",
+    "version" : "1.0.5",
+    "description" : "Export your Sketch artboards to Justinmind.",
+    "authorEmail" : "jim.info@justinmind.com",
+    "author" : "Justinmind",
+    "commands" : [
+    {
+      "script" : "ExportToJustinmind.cocoascript",
+      "handler" : "onExportAllLayers",
+      "shortcut" : "",
+      "name" : "Export artboards layers",
+      "identifier" : "exportalllayers"
+    },
+    {
+      "script" : "ExportToJustinmind.cocoascript",
+      "handler" : "onExportAsSingleImage",
+      "shortcut" : "",
+      "name" : "Export artboards as images",
+      "identifier" : "exportassingleimage"
+    }
+  ],
+  "menu": {
+    "items": [
+      "exportalllayers",
+      "exportassingleimage"
+    ]
+  }
+}

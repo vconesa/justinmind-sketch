@@ -1,0 +1,75 @@
+@import 'common.js'
+@import 'sketch.js'
+@import 'jim.js'
+@import 'fileUtils.js'
+@import 'dialogs.js'
+
+
+var deviceTypes = ["Web","iPhone","iPhone plus","iPad","Android","Android tablet"];
+var orientation = ["Portrait","Landscape"];
+var kPluginDomain = "com.justinmind.exporttojustinmind";
+var pluginVersion = "1.0.5";
+var sketchDoc;
+var nsDoc;
+var sketchApp;
+var tempFolder;
+
+var enableExportTextAsImage;
+var enableExportImage2X;
+var enableExportGroupAsSingleLayer = false;
+var exportArtboardAsSingleImage;
+var selectedDeviceType;
+var artboardsToExport;
+var selectedArtboards;
+var cancelled = false;
+
+function onExportAllLayers(context) {
+  readContextParameters(context);
+  if(!initTempFolder())
+    return;
+
+  exportArtboardAsSingleImage = false;
+  if(artboardsToExport.length==0){
+      alert("No artboards found", "The project must contain at least one artboard");
+      return;
+  }
+  openExportDialog("Export artboards layers","Export complete artboards and mantain layer hierarchy in your Justinmind prototype",true);
+}
+
+function onExportAsSingleImage(context) {
+  readContextParameters(context);
+  if(!initTempFolder())
+    return;
+
+  exportArtboardAsSingleImage = true;
+  if(artboardsToExport.length==0){
+      alert("No artboards found", "The project must contain at least one artboard");
+      return;
+  }
+  openExportDialog("Export artboards as images","Export artboards as single image layers in your Justinmind prototype",false);
+}
+
+function readContextParameters(context){
+  sketchApp = context.api();
+  nsDoc =  context.document;
+  sketchDoc = sketchApp.selectedDocument;
+  selectedArtboards = getSelectedArtboards(context.selection);
+  artboardsToExport = getAllArtboards(sketchDoc);
+}
+
+function initTempFolder(){
+  tempFolder = createEmptyTempFolder();
+  if(!tempFolder){
+    alert("Error creating JIM file", "Temp folder couldn't be created");
+    return false;
+  }
+  return true;
+}
+
+function createJustinmindFile(sketchData,tmpFolderURL,jimFile){
+  if(!cancelled)
+    createJustinmindXMLData(tmpFolderURL,sketchData);
+  if(!cancelled)
+    zipJIMFile(tmpFolderURL,jimFile);
+  removeFolder(tmpFolderURL);
+}

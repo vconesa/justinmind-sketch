@@ -6,6 +6,17 @@
     <description>Export your Sketch artboards to Justinmind.</description>
     <language>en</language>
     <item>
+        <title>Version 1.0.5</title>
+        <description>
+          <![CDATA[
+            <ul>
+              <li>Fixed crash 'Out of bounds' when trying to export in some cases</li>
+            </ul>
+          ]]>
+        </description>
+        <enclosure url="https://github.com/vconesa/justinmind-sketch/raw/master/justinmind_1.0.5.sketchplugin.zip" sparkle:version="1.0.5" />
+    </item>
+    <item>
         <title>Version 1.0.4</title>
         <description>
           <![CDATA[

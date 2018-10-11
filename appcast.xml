@@ -6,6 +6,20 @@
     <description>Export your Sketch artboards to Justinmind.</description>
     <language>en</language>
     <item>
+        <title>Version 1.0.6</title>
+        <description>
+          <![CDATA[
+            <ul>
+              <li>Compatible with Mojave</li>
+              <li>New option to export to iPhoneX</li>
+              <li>Dark Mode UI</li>
+              <li>Fix sketch shapes not exporting with previous plugin versions (1.0.5) and  new sketch versions (52.0 or superior)</li>
+            </ul>
+          ]]>
+        </description>
+        <enclosure url="https://github.com/vconesa/justinmind-sketch/raw/master/justinmind_1.0.6.sketchplugin.zip" sparkle:version="1.0.6" />
+    </item>
+    <item>
         <title>Version 1.0.5</title>
         <description>
           <![CDATA[

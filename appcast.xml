@@ -6,6 +6,21 @@
     <description>Export your Sketch artboards to Justinmind.</description>
     <language>en</language>
     <item>
+        <title>Version 1.1.0</title>
+        <description>
+          <![CDATA[
+            <ul>
+              <li>No more texts cut off</li>
+              <li>Rectangles exported as Rectangles</li>
+              <li>Lines exported as Lines</li>
+              <li>Ovals exported as Ellipses</li>
+              <li>Rotated groups now export correctly</li>
+            </ul>
+          ]]>
+        </description>
+        <enclosure url="https://github.com/vconesa/justinmind-sketch/raw/master/justinmind_1.1.0.sketchplugin.zip" sparkle:version="1.1.0" />
+    </item>
+    <item>
         <title>Version 1.0.9</title>
         <description>
           <![CDATA[

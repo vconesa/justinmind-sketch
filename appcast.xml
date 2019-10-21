@@ -6,6 +6,17 @@
     <description>Export your Sketch artboards to Justinmind.</description>
     <language>en</language>
     <item>
+        <title>Version 1.1.1</title>
+        <description>
+          <![CDATA[
+            <ul>
+              <li>Temporal fix for Rectangles and Ellipses. Now they generate as SVG images because they were having issues with masks.</li> 
+            </ul>
+          ]]>
+        </description>
+        <enclosure url="https://github.com/vconesa/justinmind-sketch/raw/master/justinmind_1.1.1.sketchplugin.zip" sparkle:version="1.1.1" />
+    </item>
+    <item>
         <title>Version 1.1.0</title>
         <description>
           <![CDATA[

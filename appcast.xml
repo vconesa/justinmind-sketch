@@ -6,6 +6,20 @@
     <description>Export your Sketch artboards to Justinmind.</description>
     <language>en</language>
     <item>
+        <title>Version 1.2.0</title>
+        <description>
+          <![CDATA[
+            <ul>
+              <li>More accurate translation for masked layers and elements with multiple shadows</li>
+              <li>If you type the prefix "in_" on a layer, that layer will be translated to an input field in Justinmind</li>
+              <li>Lines, Ellipses and Rectangles are translated to their equivalent shapes in Justinmind</li>
+              <li>Better handling of groups and rotated elements</li>
+            </ul>
+          ]]>
+        </description>
+        <enclosure url="https://github.com/vconesa/justinmind-sketch/raw/master/justinmind_1.2.0.sketchplugin.zip" sparkle:version="1.2.0" />
+    </item>
+    <item>
         <title>Version 1.1.1</title>
         <description>
           <![CDATA[

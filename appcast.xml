@@ -6,6 +6,17 @@
     <description>Export your Sketch artboards to Justinmind.</description>
     <language>en</language>
     <item>
+        <title>Version 1.2.2</title>
+        <description>
+          <![CDATA[
+            <ul>
+              <li>Updated so it works with the latests versions of Sketch</li>
+            </ul>
+          ]]>
+        </description>
+        <enclosure url="https://github.com/vconesa/justinmind-sketch/raw/master/justinmind_1.2.2.sketchplugin.zip" sparkle:version="1.2.2" />
+    </item>
+    <item>
         <title>Version 1.2.1</title>
         <description>
           <![CDATA[

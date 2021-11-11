@@ -6,7 +6,7 @@ Bring your artboards, pages and layers to Justinmind and turn your designs into 
 
 # Installation
 
-[Download](https://github.com/vconesa/justinmind-sketch/raw/master/justinmind_1.2.2.sketchplugin.zip) and extract the contents of this zip file. Then double-click the justinmind_1.2.1.sketchplugin bundle to install the plugin. This will only work if you are using Sketch 3.3 or later.
+[Download](https://github.com/vconesa/justinmind-sketch/raw/master/justinmind_1.3.0.sketchplugin.zip) and extract the contents of this zip file. Then double-click the justinmind_1.3.0.sketchplugin bundle to install the plugin. This will only work if you are using Sketch 3.3 or later.
 
 
 # Usage

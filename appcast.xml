@@ -6,6 +6,19 @@
     <description>Export your Sketch artboards to Justinmind.</description>
     <language>en</language>
     <item>
+        <title>Version 1.3.0</title>
+        <description>
+          <![CDATA[
+            <ul>
+              <li>Updated so it works with the latests versions of Sketch</li>
+              <li>Once in Justinmind, right click on a vector image and select 'Turn into paths' to edit the anchor points and any other properties.</li>
+              <li>Back and forth between Sketch and Justinmind: Use the right click option 'Copy SVG code' and paste in Justinmind. Do the same in Justinmind and paste in Sketch to bring content back and forth between the two platforms.</li>
+            </ul>
+          ]]>
+        </description>
+        <enclosure url="https://github.com/vconesa/justinmind-sketch/raw/master/justinmind_1.3.0.sketchplugin.zip" sparkle:version="1.3.0" />
+    </item>
+    <item>
         <title>Version 1.2.2</title>
         <description>
           <![CDATA[
